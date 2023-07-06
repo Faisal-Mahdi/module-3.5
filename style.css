@@ -21,6 +21,7 @@
     margin-right:17px;
     padding: 5px;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .logo{
@@ -47,4 +48,26 @@
 .paragraph{
     font-size: 18px;
     margin-top: 15px;
+}
+
+.bannercontainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logoo{
+    width: 300px;
+}
+
+.item:hover{
+    background-color: red;
+    height: 20px;
 }
